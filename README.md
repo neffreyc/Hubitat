@@ -12,7 +12,13 @@ date will appear under the reading if the last reading is over 2 days old, indic
 - capacity - Capacity of the Tank, returned from Tank Utility
 - level - % of the tank that is filled
 - tile - For used to display a guage on the dashboards using the attribute template
-
+  - Battery will show in upper left if set to warning (yellow) or critical (red)
+  - Date underneath is the lastreading value if the last reading is over 2 days old to indicate it is stale
+  - Color change based of the tank level compared to the Alarm and Warning Level set
+ 
+ ![Image of tile](https://github.com/neffreyc/Hubitat/blob/main/Images/TankUtilityGauge.png)
+ ![Image of tile](https://github.com/neffreyc/Hubitat/blob/main/Images/TankUtilityGuages.png)
+ 
 ### SETUP
  - Tank Utility User Name: The email use used to set up Tank Utility account
  - Tank Utility Password: The password used to set up Tank Utility account
