@@ -20,10 +20,12 @@ date will appear under the reading if the last reading is over 2 days old, indic
  ![Image of tile](https://github.com/neffreyc/Hubitat/blob/main/Images/TankUtilityGuages.png)
  
 ### SETUP
+##### Preferences
  - Tank Utility User Name: The email use used to set up Tank Utility account
  - Tank Utility Password: The password used to set up Tank Utility account
  - Warning Level: The level at which you concider it to be a warning. Used to create the tile attribute.
  - Alarm Level: The level at which you concider it to be an alarm. Used to create the tile attribute.
+ ##### Device Info
  - Device Network ID: The Tank Utility ID from running the Devices API call.
  
  ```
